@@ -3,7 +3,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/98518.jpg") center center;
+    background: url("../img/98510.jpg") center center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -15,7 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background: rgb(32, 56, 100);
+    background:  #233E96;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ body {
     width: 50px;
     height: 50px;
     border: 12px solid #fff;
-    border-bottom: 12px solid rgb(32, 56, 100);
+    border-bottom: 12px solid  #0F58EC;
     border-radius: 50%;
     margin: 0;
 }
@@ -57,11 +57,11 @@ body {
 }
 
 .box1 {
-    background: rgb(32, 56, 100);
+    background: #0F58EC;
 }
 
 .box2 {
-    background: rgb(32, 56, 100);
+    background:  #0F58EC;
     margin-left: -5px;
 }
 
@@ -93,8 +93,9 @@ body {
     padding-bottom: 10vh;
 }
 
+
 #head h1 {
-    color: #5100ff;
+    color: #39C5F6;
     text-decoration: underline;
     font-size: 70px;
     margin: 2px auto;
@@ -141,32 +142,11 @@ body {
 .text {
     background-color: #ff2b4b;
     color: white;
+    align-content: center;
     font-size: 16px;
-    padding: 16px 32px;
     text-align: center;
+    padding: 5px;
 }
-
-@media (max-width: 360px) {
-    .text {
-        font-size: 14px;
-    }
-
-}
-
-@media (max-height: 650px) {
-    .profile {
-        width: 120px;
-        margin: 10px auto 0px;
-    }
-
-    #head h1 {
-        color: #5100ff;
-        text-decoration: underline;
-        font-size: 45px;
-        margin-bottom: 2px;
-    }
-}
-
 
 #head h2 {
     color: #ff2b4b;
@@ -182,7 +162,7 @@ body {
     background: transparent;
     color: #fff;
     position: fixed;
-    left: 0;
+    left: 0px;
     bottom: 40vh;
     display: flex;
     flex-direction: column;
@@ -264,14 +244,14 @@ body {
 
 .social:hover {
     cursor: pointer;
-    color: rgb(255, 50, 50);
+    color: #FF3232;
 }
 
 .container {
     width: 90vw;
     height: 90vh;
     padding: 5vh 5vw;
-    background: rgb(32, 56, 100);
+    background:  #233E96;
     color: #fff;
     z-index: 9;
     position: fixed;
@@ -290,8 +270,24 @@ body {
     cursor: pointer;
 }
 
+#recaptcha {
+    display: none;
+}
+
 .container section {
     margin: 8vh 0px;
+}
+
+.container h2 {
+    color: #FF3232;
+}
+
+.email {
+    color: white;
+}
+
+.email:hover {
+    color: #FF3232;
 }
 
 #used div {
@@ -335,14 +331,14 @@ body {
 
 .btn_one:hover {
     cursor: pointer;
-    color: rgb(255, 50, 50);
+    color: #FF3232;
     background: #fff;
 }
 
 .btn_two {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    color: rgb(32, 56, 100);
+    color:  #0F58EC;
     background: #fff;
     border: 3px solid #fff;
     padding: 8px 40px;
@@ -414,7 +410,7 @@ body {
 }
 
 #footer a {
-    color: rgb(255, 50, 50);
+    color: #FF3232;
 }
 
 #particles-js {
@@ -433,7 +429,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(32, 56, 100);
+    background:  #0F58EC;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -442,7 +438,7 @@ body {
 
 ::selection {
     color: #fff;
-    background: rgb(32, 56, 100);
+    background:  #0F58EC;
 }
 
 @media (max-width: 800px) {
@@ -502,5 +498,27 @@ body {
 
     #box div {
         width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .text {
+        font-size: 14px;
+        padding: auto;
+    }
+
+}
+
+@media (max-height: 650px) {
+    .profile {
+        width: 120px;
+        margin: 10px auto 0px;
+    }
+
+    #head h1 {
+        color: #5100ff;
+        text-decoration: underline;
+        font-size: 45px;
+        margin-bottom: 2px;
     }
 }
