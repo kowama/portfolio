@@ -24,11 +24,19 @@ body {
 }
 .check-link{
     text-decoration: none;
-    color: #FF3232;
+    color: #b7d6ff;
+}
+.quote{
+    font-style: italic;
+    text-align: center;
+    color: #fff852;
 }
 .check-link:hover{
     color: #FF3232;
     text-decoration: underline;
+}
+.sub-skill{
+    color: #ff7b86;
 }
 
 #spinner {
@@ -354,6 +362,11 @@ body {
     font-weight: bold;
     margin: 2vh 10px;
     transition: 0.4s ease-in-out;
+}
+.cert-provider{
+    font-size: medium;
+    font-weight: normal;
+    color: #fff852;
 }
 
 .btn_two:hover {
