@@ -285,11 +285,6 @@ body {
 .container div:hover {
     cursor: pointer;
 }
-
-#recaptcha {
-    display: none;
-}
-
 .container section {
     margin: 8vh 0px;
 }
