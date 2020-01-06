@@ -347,6 +347,11 @@ body {
     font-size: 18px;
 }
 
+.btn {
+    max-width: 100%;
+    overflow-wrap: normal;
+}
+
 .btn_one {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
@@ -355,8 +360,8 @@ body {
     border: 3px solid #fff;
     padding: 8px 40px;
     border-radius: 80px;
+    margin: 10px;
     font-weight: bold;
-    margin: 2vh 10px;
     transition: 0.4s ease-in-out;
     text-decoration: none;
 }
@@ -375,8 +380,8 @@ body {
     border: 3px solid #fff;
     padding: 8px 40px;
     border-radius: 80px;
+    margin: 10px;
     font-weight: bold;
-    margin: 2vh 10px;
     text-decoration: none;
     transition: 0.4s ease-in-out;
 }
@@ -544,7 +549,7 @@ body {
 @media (max-width: 360px) {
     .text {
         font-size: 14px;
-        padding: auto;
+        padding: initial;
     }
 
 }
@@ -560,5 +565,13 @@ body {
         text-decoration: underline;
         font-size: 45px;
         margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 464px) {
+    .btn .btn_two, .btn .btn_one {
+        display: block;
+        width: 60%;
+        margin: 10px auto;
     }
 }
