@@ -3,7 +3,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: url("../img/98510.jpg") center center;
+    background: url("../img/985189.jpg") center center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -22,20 +22,29 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.check-link{
+
+.xp-sep {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.check-link {
     text-decoration: none;
     color: #b7d6ff;
 }
-.quote{
+
+.quote {
     font-style: italic;
     text-align: center;
     color: #fff852;
 }
-.check-link:hover{
+
+.check-link:hover {
     color: #FF3232;
     text-decoration: underline;
 }
-.sub-skill{
+
+.sub-skill {
     color: #ff7b86;
 }
 
@@ -79,6 +88,16 @@ body {
 .box2 {
     background: #0F58EC;
     margin-left: -5px;
+}
+
+.project-date {
+    color: #fff852;
+    font-style: italic;
+    font-size: medium;
+}
+
+.subject {
+    text-decoration: underline;
 }
 
 #alt_menu {
@@ -285,6 +304,7 @@ body {
 .container div:hover {
     cursor: pointer;
 }
+
 .container section {
     margin: 8vh 0px;
 }
@@ -338,6 +358,7 @@ body {
     font-weight: bold;
     margin: 2vh 10px;
     transition: 0.4s ease-in-out;
+    text-decoration: none;
 }
 
 .btn_one:hover {
@@ -356,9 +377,11 @@ body {
     border-radius: 80px;
     font-weight: bold;
     margin: 2vh 10px;
+    text-decoration: none;
     transition: 0.4s ease-in-out;
 }
-.cert-provider{
+
+.cert-provider {
     font-size: medium;
     font-weight: normal;
     color: #fff852;
@@ -366,7 +389,8 @@ body {
 
 .btn_two:hover {
     cursor: pointer;
-    padding: 8px 60px;
+    background: #ff2b4b;
+    color: #0F58EC;
 }
 
 .container form input {
